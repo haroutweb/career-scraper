@@ -1,0 +1,28 @@
+{
+  "name": "haroutweb/scraper-php",
+  "type": "library",
+  "description": "Scraper for Recruitment",
+  "keywords": ["scraper", "careercenter.am"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Harut Grigoryan",
+      "email": "haroutweb@yandex.com"
+    }
+  ],
+  "config": {
+    "optimize-autoloader": true
+  },
+  "require": {
+    "php": ">=7.1",
+    "twig/twig": "~2.0",
+    "fabpot/goutte": "3.2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Framework\\": "application/module/Framework/src",
+      "Scraper\\": "application/module/Scraper/src",
+      "Recruitment\\": "application/module/Recruitment/src"
+    }
+  }
+}

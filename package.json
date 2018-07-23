@@ -1,0 +1,18 @@
+{
+  "name": "scraper-php",
+  "version": "1.0.0",
+  "description": "Scraper PHP Application",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -d && webpack --w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue-resource": "^1.5.0",
+    "webpack": "^4.8.3"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.1.3"
+  }
+}
